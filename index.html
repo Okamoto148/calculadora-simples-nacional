@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>💻Calculadora Simples Nacional</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="section">
+		<div class="container">
+			<div class="columns is-centered">
+				<div class="column is-half">
+					<h1 class="title has-text-centered">💻Calculadora Simples Nacional</h1>
+ 
+					
+						<div class="field">
+							<label class="label">RBA</label>
+							<div class="control">
+								<input name="rba" class="input" type="number" placeholder="Receita Bruta dos 12 meses anteriores" id="rba12">
+							</div>
+						</div>
+
+
+						<div class="field">
+							<label class="label">FM</label>
+							<div class="control">
+								<input name="FM" class="input" type="number" placeholder="Faturamento mensal" id="fm">
+							</div>
+						</div>
+ 
+						<div class="field">
+							<label class="label">Tipo</label>
+							<div class="control">
+								<div class="select is-fullwidth">
+									<select id="tipo">
+										<option value=1>Comércio</option>
+										<option value=2>Indústria</option>
+										<option value=3>Serviço I</option>
+										<option value=4>Serviço II</option>
+										<option value=5>Serviço III</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="field">
+							<div class="control">
+								<button class="button is-link is-medium" id='calcular'>Calcular</button>
+							</div>
+						</div>
+
+						
+	
+	<div class="input" id='resultado4'></div>
+<p style="font-size:10px;">Calculadora útil para verificação do valor do imposto pago em empresas (simples nacional)</p>
+
+
+ 
+				</div>
+			</div>
+		</div>
+	</section>
+<script src="./simples.js"></script>
+</script>
+</body>
+</html>
